@@ -1,0 +1,184 @@
+.App {
+  /* text-align: center; */
+  background-color: black;
+  color: white;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ul{
+  
+}
+li{
+  float: left;
+}
+.headercont{
+  margin-top: 130px;
+}
+.section-titles{
+  margin-top: 80px;;
+}
+.lesson-card{
+  display: inline-block;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 15px;
+  color: black;
+  margin-right: 20px;
+  width: 22.25%;
+  margin-bottom: 20px;
+}
+.lesson-item{
+  width: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:40px;
+}
+.lesson-items img{
+  width:18px;
+  position: absolute;
+  margin: auto;
+  background-color:white;
+  margin-right:540px;
+}
+.footer{
+
+  background-color: white;
+  color: #000;
+}
+.footer-logo{
+  float: left;
+
+}
+.footer-list{
+  float: right;
+  list-style-type: none;
+  margin-right: 90px;
+  margin-top: 52px;
+}
+li{
+  margin-left:10px;
+
+}
+
+li:hover{
+  background-color: brown;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal{
+  position: fixed;
+  top:0;
+  left: 0;
+  background-color: yellow;
+}
+
+.modal-inner {
+  position: absolute;
+  top: 8%;
+  right: 0;
+  left: 0;
+  width: 480px;
+  padding-bottom: 60px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+.modal-header {
+  height: 8px;
+  width: 100%;
+  margin-bottom: 60px;
+  border-radius: 8px 8px 0 0;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/modal_bar.svg");
+}
+
+.modal-introduction p {
+  color: #5876a3;
+  width: 384px;
+  line-height: 32px;
+  text-align: left;
+  margin: 36px auto 40px;
+}
+
+.modal-close-btn {
+  font-size: 13px;
+  color: #8491a5;
+  width: 200px;
+  padding: 16px 0;
+  border: 0;
+  background-color: #f0f4f9;
+  cursor: pointer;
+}
+
+.modal-close-btn:hover {
+  color: #8491a5;
+  background-color: #ccd9ea;
+  transition: .3s ease-in-out;
+}
+
+@media all and (max-width:1000px){
+  body{
+    color: brown;
+  }
+  .lesson-card{
+    display: flex;
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    margin-right: 20px;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 50px;
+  }
+  .lesson-item{
+    margin-bottom: 40px;
+  }
+  .lesson-container{
+    margin-bottom: 10px;
+  }
+  .footer-list{
+    float: right;
+    list-style-type: none;
+    margin-right: 120px;
+    margin-top: 40px;
+  }
+  .footer{
+    margin-top:0px;
+    background-color: white;
+    color: #000;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
